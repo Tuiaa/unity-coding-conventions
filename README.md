@@ -15,3 +15,6 @@ Interfaces are written in PascalCase. Interface starts with "I". For example IAn
 All methods are written in PascalCase. For example DoThis().
 
 #### Fields
+
+#### Enums
+Enums should be written in PascalCase. For example public enum Status { Idle, NotSet }
