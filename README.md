@@ -17,4 +17,4 @@ All methods are written in PascalCase. For example DoThis().
 #### Fields
 
 #### Enums
-Enums should be written in PascalCase. For example public enum Status { Idle, NotSet }
+Enums should be written in PascalCase. The name should be singular. For example public enum Status { Idle, NotSet }
