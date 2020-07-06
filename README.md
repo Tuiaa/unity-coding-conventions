@@ -5,6 +5,13 @@ This is partly Unity's best practices, partly Microsoft's C# conventions and par
 
 ## Naming Guidelines
 
+### Unity Editor
+
+#### Folders
+All folders that are created should start with underscore. This way when downloading packages to Unity, the folders won't get mixed up. For example _Scenes.
+
+### Code
+
 #### Classes
 Classes are written in PascalCase. For example GameManager.
 
