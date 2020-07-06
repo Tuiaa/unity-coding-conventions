@@ -5,31 +5,31 @@ This is partly Unity's best practices, partly Microsoft's C# conventions and par
 
 ## Naming Guidelines
 
-### Unity Editor
+## Unity Editor
 
-#### Folders
+### Folders
 All folders that are created should start with underscore. This way when downloading packages to Unity, the folders won't get mixed up. For example _Scenes.
 
-#### File names
+### File names
 C# file names are the same as the class name. Names are written in PascalCase. For example GameManager.
 
 Scene files are written in PascalCase. For example MainMenu.
 
-#### Hierarchy gameobjects
+### Hierarchy gameobjects
 All gameobjects use PascalCase. Keep the most descriptive word on left, for example FireZombie instead of ZombieFire. Name should end with the type of the gameobject so it's easier to see which object it is, for example PauseButton or HighScoreBackgroundPanel.
 
-### Code
+## Code
 
-#### Classes
+### Classes
 Classes are written in PascalCase. For example GameManager.
 
-#### Interfaces
+### Interfaces
 Interfaces are written in PascalCase. Interface starts with "I". For example IAnimal.
 
-#### Methods
+### Methods
 All methods are written in PascalCase. For example DoThis().
 
-#### Fields
+### Fields
 
-#### Enums
+### Enums
 Enums should be written in PascalCase. The name should be singular. For example public enum Status { Idle, NotSet }
