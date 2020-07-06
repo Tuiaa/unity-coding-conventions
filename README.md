@@ -10,6 +10,14 @@ This is partly Unity's best practices, partly Microsoft's C# conventions and par
 #### Folders
 All folders that are created should start with underscore. This way when downloading packages to Unity, the folders won't get mixed up. For example _Scenes.
 
+#### File names
+C# file names are the same as the class name. Names are written in PascalCase. For example GameManager.
+
+Scene files are written in PascalCase. For example MainMenu.
+
+#### Hierarchy gameobjects
+All gameobjects use PascalCase. Keep the most descriptive word on left, for example FireZombie instead of ZombieFire. Name should end with the type of the gameobject so it's easier to see which object it is, for example PauseButton or HighScoreBackgroundPanel.
+
 ### Code
 
 #### Classes
