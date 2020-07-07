@@ -31,7 +31,14 @@ Interfaces are written in PascalCase. Interface starts with "I". For example <b>
 ### Methods
 All methods are written in PascalCase. For example <b>DoThis()</b>.
 
-### Fields
+Method parameters are written in camelCase. For example <b> DoThis(float numberOfThingsToDo)</b>.
+
+### Variables and fields
+Private fields start with underscore and are written in camelCase, for example <b>private int _speedOfCar</b>.
+
+Public fields are written PascalCase, for example <b>public string NameOfCharacter</b>.
+
+Local variables are written in camelCase. For example <b>string myLocalVariable</b>.
 
 ### Enums
 Enums should be written in PascalCase. The name should be singular. For example <b>public enum Status { Idle, NotSet }</b>
