@@ -50,3 +50,6 @@ For example: <br>
 instead of<br>
 <b>[SerializeField]</b><br>
 <b>private float _speed</b><br>
+
+### Namespaces
+Namespaces are written in PascalCase and separate namespace components with periods. For example <b> namespace GameName.Enemy</b>.
