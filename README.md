@@ -52,4 +52,4 @@ instead of<br>
 <b>private float _speed</b><br>
 
 ### Namespaces
-Namespaces are written in PascalCase and separate namespace components with periods. For example <b> namespace GameName.Enemy</b>.
+Namespaces are written in PascalCase and namespace components should be separated with periods. For example <b> namespace MyAwesomeGame.Enemy</b>.
