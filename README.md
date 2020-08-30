@@ -53,3 +53,11 @@ instead of<br>
 
 ### Namespaces
 Namespaces are written in PascalCase and namespace components should be separated with periods. For example <b> namespace MyAwesomeGame.Enemy</b>.
+
+### Events
+Events are written in PascalCase and ending with "EventHandler". Try to be as descriptive as possible. <br> 
+For example: <br>
+<b>public static event PlayerDiedEventHandler PlayerDied;</b> <br>
+The invoked method should be descriptive and start with "On". It should have the same name as the event. Add more descriptive method calls inside the invoked method like <b>EndGame</br> and <b>UpdatePlayerScore</b> but don't call the invoked method OnEndGame or OnUpdatePlayerScore. <br>
+For example: <br>
+<b>OnPlayerDied</b><br>
