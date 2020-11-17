@@ -40,6 +40,8 @@ Public fields are written PascalCase, for example <b>public string NameOfCharact
 
 Local variables are written in camelCase. For example <b>string myLocalVariable</b>.
 
+Constant values are written in SCREAMING_SNAKE_CASE. For example <b>const string MY_CONST_STRING</b>.
+
 ### Enums
 Enums should be written in PascalCase. The name should be singular. For example <b>public enum Status { Idle, NotSet }</b>
 
