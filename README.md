@@ -23,13 +23,13 @@ All gameobjects use PascalCase. Keep the most descriptive word on left, for exam
 ## Code
 
 ### Classes
-Classes are written in PascalCase. For example <b>GameManager</b>.
+Classes are written in PascalCase. For example <b>GameManager</b>. Should be a noun.
 
 ### Interfaces
 Interfaces are written in PascalCase. Interface starts with "I". For example <b>IAnimal</b>.
 
 ### Methods
-All methods are written in PascalCase. For example <b>DoThis()</b>.
+All methods are written in PascalCase. For example <b>DoThis()</b>. Should be a verb.
 
 Method parameters are written in camelCase. For example <b> DoThis(float numberOfThingsToDo)</b>.
 
